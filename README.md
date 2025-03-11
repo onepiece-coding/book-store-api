@@ -52,6 +52,7 @@ Follow these steps to set up the project locally:
    
    ```bash
    git clone https://github.com/onepiece-coding/book-store-api.git
+   
    cd book-store-api
 
 2. **Install dependencies**:
@@ -66,10 +67,15 @@ Follow these steps to set up the project locally:
 
    ```bash
    MONGo_URI=mongodb://localhost/booksStoreDB
+   
    PORT=5000
+   
    NODE_ENV=Development
+   
    JWT_SECRET_KEY=secretkey
+   
    USER_EMAIL=your_gmail
+   
    USER_PASS=your_gmail_app_password
 
 4. **Run the server**:
